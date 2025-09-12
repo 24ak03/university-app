@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 
 function Logo() {
   return (
-    <div className="flex items-center gap-2 select-none">
-      <div className="w-8 h-8 bg-[#2563EB] rounded-lg flex items-center justify-center shadow-sm">
-        <span className="text-white font-extrabold text-sm leading-none">UC</span>
+    <div className="flex items-center gap-0 select-none">
+      <div className="w-8 h-8 bg-[#7ca4fb] rounded-lg flex items-center justify-center shadow-sm">
+        <span className="text-white font-extrabold text-sm leading-none">Uni</span>
       </div>
-      <span className="text-xl font-extrabold tracking-tight text-[#1e293b]">UniConnect</span>
+      <span className="text-xl font-extrabold tracking-tight text-[#1e293b]">versity</span>
     </div>
   );
 }

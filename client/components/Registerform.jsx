@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function Registerform({ onSubmit, onNavigate, universities = [] }) {
   const [fullName, setFullName] = useState("");
@@ -16,9 +16,9 @@ export default function Registerform({ onSubmit, onNavigate, universities = [] }
       <div className="text-center mb-6">
         <div className="flex items-center justify-center gap-2 mb-4">
           <div className="w-8 h-8 bg-[#2563EB] rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">UC</span>
+            <span className="text-white font-bold text-sm">Uni</span>
           </div>
-          <span className="text-xl font-bold text-[#1e293b]">UniConnect</span>
+          <span className="text-xl font-bold text-[#1e293b]">versity</span>
         </div>
         <h2 className="text-2xl font-extrabold text-[#1e293b]">Create Account</h2>
         <p className="text-[#64748b] mt-2">Join your university community</p>

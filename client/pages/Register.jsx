@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Registerform from "../components/Registerform";
@@ -19,7 +18,6 @@ export default function Register() {
   const { login } = useAuth();
 
   function handleSubmit(payload) {
-    // Mock registration -> login
     login({ name: payload.fullName, email: payload.email, university: payload.university, avatar: "https://placehold.co/32x32/2563EB/ffffff?text=AZ" });
     navigate('/');
   }

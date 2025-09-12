@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Postform from "../components/Postform";
@@ -8,7 +7,6 @@ export default function Createpost() {
   const navigate = useNavigate();
 
   function handleSubmit(post) {
-    // in real app save to server
     console.log('new post', post);
     navigate('/');
   }

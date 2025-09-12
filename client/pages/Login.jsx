@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Loginform from "../components/Loginform";
@@ -10,7 +9,6 @@ export default function Login() {
   const { login } = useAuth();
 
   function handleSubmit({ email, password }) {
-    // Mock auth: create a user object from email
     const name = email.split("@")[0].replace(/[._]/g, " ");
     login({ name: name.charAt(0).toUpperCase() + name.slice(1), email, university: "Nazarbayev University", avatar: "https://placehold.co/32x32/2563EB/ffffff?text=AZ" });
     navigate('/');

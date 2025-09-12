@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function Loginform({ onSubmit, onNavigate }) {
   const [email, setEmail] = useState("");
@@ -12,11 +12,11 @@ export default function Loginform({ onSubmit, onNavigate }) {
   return (
     <div className="max-w-md w-full bg-white rounded-xl shadow-lg border border-[#e2e8f0] p-8">
       <div className="text-center mb-6">
-        <div className="flex items-center justify-center gap-2 mb-4">
+        <div className="flex items-center justify-center gap-1 mb-4">
           <div className="w-8 h-8 bg-[#2563EB] rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">UC</span>
+            <span className="text-white font-bold text-sm">Uni</span>
           </div>
-          <span className="text-xl font-bold text-[#1e293b]">UniConnect</span>
+          <span className="text-xl font-bold text-[#1e293b]">versity</span>
         </div>
         <h2 className="text-2xl font-extrabold text-[#1e293b]">Welcome Back</h2>
         <p className="text-[#64748b] mt-2">Sign in to your account</p>
